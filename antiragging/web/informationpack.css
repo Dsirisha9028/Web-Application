@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 09-Jun-2022, 9:39:06 pm
+    Author     : Duggasani Sirisha
+*/
+*{
+background-color:#d0f0c0;
+}
+.b{
+color:black;
+font-size:25px;
+}
+.hd{
+color:white;
+   height:50px;
+   padding-top:15px;
+   vericle-align:middle;
+   text-align:center;
+ background-color:#2b1700;
+ word-spacing:15px;
+}
+.header{
+    width:24%;
+    background-color:#993c00;
+    border:None;
+    color:black;
+    padding:12px 16px;
+    font-size:16px;
+    curser:pointer;
+
+    }
+.header:hover{
+     background-color:#995f00;
+}
+li{
+font-size:20px;
+}
+.bg{
+width:100%;
+
+background-size: cover;
+position: relative;
+background-size: 100% 100%;
+
+}
+#ip{
+     background-color:#995f00;
+}
+.img1{
+padding-top:20px;
+float:right;
+
+}
+

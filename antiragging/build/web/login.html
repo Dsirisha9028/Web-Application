@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,space=initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+    .bg{
+  width:100%;
+  height:1000px;
+  background-image: url('http://www.antiragging.in/assets/img/index/hero.webp');
+   background-size: cover;
+   position: relative;
+  background-size: 100% 100%;
+  
+  }
+  .hd{
+color:white;
+   height:50px;
+   padding-top:15px;
+   vericle-align:middle;
+   text-align:center;
+ background-color:#2b1700;
+ word-spacing:15px;
+}
+.container{
+
+    
+    border:2px solid black;
+    border-radius:5px;
+    font-size:20px;
+    padding: 30px 50px 20px 50px;
+background-color:rgb(255, 255, 255 ,0.7);
+
+    padding:50px 100px 50px 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+
+    }
+     input[type=text], input[type=password] ,input[type=email],input[type=tel],.a{
+        width: 40%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px solid black;
+        box-sizing: border-box;
+
+    }
+    .bt{
+    width:24%;
+    background-color:#00997d;
+    border:1px solid #007899;
+    border-radius:5px;
+    color:black;
+    padding:12px 16px;
+    font-size:16px;
+    curser:pointer;
+    }
+    .bt:hover{
+    background-color:#00bd00;
+    }
+      </style>
+</head>
+<body>
+<div class="bg">
+    <h1 class="hd"  >ANTI RAGGING PORTAL</h1>
+<center> <h2 style="color:red;font-size:30px">Are you being ragged? </h2><br>
+    <h2 style="color:brown;font-size:25px">Lodge a Complaint!!</h2> </center>
+    <form>
+        <div class="container">
+            <label style="font-size:25px">Name&emsp;&emsp;&emsp;&emsp;&emsp;:&emsp;&emsp;&emsp;</label>
+            <input type="text" placeholder="Enter Your Name" name="Name" required><br><br>
+            <label style="font-size:25px">Email&emsp;&emsp;&emsp;&emsp;&emsp;:&emsp;&emsp;&emsp;</label>
+            <input type="email" placeholder="Enter email" name="email" required><br><br>
+            <label style="font-size:25px">Phone No&emsp;&emsp;&emsp;&nbsp;&nbsp;:&emsp;&emsp;&emsp;</label>
+            <input type="tel" placeholder="Enter phone no" name="phone.no" required><br><br>
+            <label style="font-size:25px">Roll.No&emsp;&emsp;&emsp;&emsp;&nbsp;:&emsp;&emsp;&emsp;</label>
+            <input type="text" placeholder="Enter Roll.No" name="Roll.No" required><br><br>
+            <label style="font-size:25px">Branch&emsp;&emsp;&emsp;&emsp;&ensp;:&emsp;&emsp;&emsp;</label>
+            <input type="text" placeholder="Enter branch" name="Branch" required><br><br>
+            <label style="vertical-align:top;font-size:25px">Ragging Details&emsp;:&emsp;&emsp;&emsp;</label>
+            <textarea class="a" name="Ragging details" placeholder="Enter Ragging details" rows="5" cols="30" required ></textarea><br>
+            <label style="vertical-align:top;font-size:25px;">Feedback&emsp;&emsp;&emsp;&nbsp;&nbsp;:&emsp;&emsp;&emsp;</label>
+            <textarea class="a" name="Feedback" placeholder="Enter Feedback" rows="5" cols="30" required ></textarea><br>
+           <center><button class="bt" type="submit">Login</button></center>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 09-Jun-2022, 9:37:49 pm
+    Author     : Duggasani Sirisha
+*/
+*{
+background-color:#d0f0c0;
+}
+.btn{
+    display: btn;
+     width:100%;
+     height:270px;
+     background-color:#ffaa00;
+       background-attachment: fixed;
+    }
+
+   .img1{
+   float:left;
+   border-radius:20%;
+   }
+
+   .img2{
+   float:right;
+   }
+.header{
+    width:24%;
+    background-color:#993c00;
+    border:None;
+    color:black;
+    padding:12px 16px;
+    font-size:16px;
+    curser:pointer;
+
+    }
+.header:hover{
+     background-color:#995f00;
+}
+.b{
+color:white;
+   height:50px;
+   padding-top:20px;
+   vericle-align:middle;
+   text-align:center;
+ background-color:black;
+ word-spacing:15px;
+   }
+
+   .c{
+   height:50px;
+   verticle-align:middle;
+   text-align:center;
+
+   }
+   .bottom-left1{
+  text-shadow: 2px 2px 5px brown;
+  position: absolute;
+  bottom: 560px;
+  left: 59px;
+  font-size:25px;
+}
+#abt{
+     background-color:#995f00;
+}
+.a{
+background-color:black;
+padding:5px;
+text-align:center;
+color:white;
+word-spacing:15px;
+}
+.d{
+color:black;
+font-size:25px;
+}
+li{
+color:black;
+}
+.nt{
+color:red;
+font-size:25px;
+font-weight:bold;
+}
+
+.bg{
+width:100%;
+
+background-size: cover;
+position: relative;
+background-size: 100% 100%;
+}
+
+li{
+font-size:20px;
+}
+.img3{
+float:right;
+}
